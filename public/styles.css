@@ -1,0 +1,230 @@
+body {
+  font-family: "Playwrite+CU";
+  background-color: #d7bf9f;
+}
+
+h1 {
+  font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.image-top {
+  width: 70%;
+  display: block;
+  margin: 10% auto;
+}
+
+.nav-link img {
+  padding-right: 3px;
+  padding-bottom: 4px;
+}
+
+#info {
+  padding-top: 3%;
+  color: black;
+}
+
+.btn-secondary {
+  margin: 10px;
+  color: black;
+  border-radius: 20px;
+  background-color: #c59e6b;
+  border: 5px solid #c59e6b;
+}
+
+.btn-secondary:hover {
+  background-color: #d7bf9f;
+  color: #c59e6b;
+  border: 5px solid #c59e6b;
+}
+
+.Explore-image {
+  padding-left: 10px;
+}
+#testimonial-carousel {
+  width: 100%;
+  background-color: #fff;
+  color: #d7bf9f;
+  text-align: center;
+}
+.carousel-item {
+  padding: 10% 12%;
+}
+
+.navbar {
+  background-color: #c59e6b;
+  padding: 1% 2% 1%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.link-line {
+  text-decoration: none;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.head-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.headname {
+  color: black;
+  font-size: 2.4em;
+  margin-left: 2px;
+}
+
+.nav-item {
+  font-family: "Bona Nova SC", serif !important;
+  font-weight: 700;
+  font-style: normal;
+  position: relative;
+  padding: 0 18px;
+}
+
+.nav-link {
+  color: black;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #d7bf9f;
+  transition: width 0.4s ease, right 0.4s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  right: 0;
+}
+
+.nav-item img {
+  margin-right: 5px;
+}
+
+.social-icon {
+  margin: 0 10px;
+  color: black;
+}
+
+.nav-item {
+  padding: 0 18px;
+  align-items: right;
+}
+
+.hedding {
+  padding: 4% 3% 2%;
+  color: black;
+  text-align: center;
+}
+
+.row {
+  margin: 0;
+}
+
+.btn-dark {
+  border: 0;
+  background-color: #d7bf9f;
+}
+
+.btn-dark:hover {
+  background-color: #c59e6b;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.card-img {
+  padding: 3% 0 3%;
+  width: 110px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #c59e6b;
+}
+
+#contact {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 4%;
+  color: black;
+}
+@media (max-width: 600px) {
+  .testimonial-text {
+    font-size: 15px;
+  }
+  .carousel-item {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .info-cont {
+    padding-bottom: 40px;
+  }
+  .image-top {
+    margin: auto;
+    display: block;
+    padding: 7% 0 7%;
+  }
+
+  .info-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .itme-top {
+    padding-top: 4%;
+    text-align: left;
+  }
+
+  .head-image {
+    width: 25px;
+    height: 25px;
+  }
+
+  .headname {
+    padding-left: 2px;
+    font-size: 1.5em;
+  }
+
+  .navbar {
+    padding: 5% 2%;
+  }
+
+  .headings-buld {
+    font-size: 2rem;
+  }
+
+  .hedding {
+    text-align: center;
+    padding: 5% 3% 2%;
+  }
+
+  #contact {
+    font-size: 1rem;
+    padding: 3%;
+  }
+}
