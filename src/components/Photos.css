@@ -1,0 +1,28 @@
+.head-photos-title {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.certificate-img {
+  width: 250px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.certificates-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
