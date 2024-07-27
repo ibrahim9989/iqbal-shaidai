@@ -16,7 +16,7 @@ const About = () => {
                   </h5>
                   <p className="about-card-text">
                     <b>Pen Name:</b> Iqbal Shaidai <br />
-                    <b>Date of Birth:</b> February 28, 1943 <br />
+                    <b>Date of Birth:</b> February 16, 1943 <br />
                     <b>Father's Name:</b> Mohd Jalaluddin <br />
                     <b>Grandfather's Name:</b> Mohd Alauddin <br />
                     <b>Education:</b> Bachelor of Science (B.Sc.) in
