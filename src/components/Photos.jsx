@@ -7,7 +7,7 @@ function Photos() {
       <h3 className="head-photos-title">Appreciation Certificates</h3>
       <div className="row certificates-container">
         <div className="col-lg-3">
-          <div className="card certificate-card">
+          <div className="card-crt">
             <div className="card-body card-body-container">
               <div className="img-container">
                 <img
@@ -20,7 +20,7 @@ function Photos() {
           </div>
         </div>
         <div className="col-lg-3">
-          <div className="card certificate-card">
+          <div className="card-crt">
             <div className="card-body card-body-container">
               <div className="img-container">
                 <img
@@ -33,7 +33,7 @@ function Photos() {
           </div>
         </div>
         <div className="col-lg-3">
-          <div className="card certificate-card">
+          <div className="card-crt">
             <div className="card-body card-body-container">
               <div className="img-container">
                 <img
