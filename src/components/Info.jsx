@@ -7,7 +7,7 @@ function Info() {
         <div className="row info-item align-items-center">
           <div className="col-12 col-md-6 order-2 order-md-1 item-top text-md-left">
             <h2 className="typewriter">For Shayari enthusiasts,</h2>
-            <h2> embark on a unique journey of Shayari with Iqbal Shaidai.</h2>
+            <h4> Embark on a unique journey of Shayari with Iqbal Shaidai.</h4>
             <a href="#Books" className="btn btn-secondary btn-lg">
               Explore{" "}
               <img
