@@ -8,7 +8,7 @@ function Contactus() {
       <iframe
         className="link-contactus"
         title="iframe contact"
-        src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAADUi1S1URU1UTFFMVk00NlY3VjA5STEwRUY1Q1ZEMy4u&embed=true"
+        src="https://docs.google.com/forms/d/e/1FAIpQLScax3OBKxLAb2HA7BvRhanYAYGs2vC-mszkUobWZGCSD229IA/viewform?embedded=true"
         allow="fullscreen"
       ></iframe>
     </div>
